@@ -1,0 +1,11 @@
+{
+  "extracted_dir": "C:/Users/Mach/OneDrive/Desktop/Диплом/New_Project/resourses/data",
+  "last_archive": null,
+  "last_algorithm": "RANSAC",
+  "auto_load_history": true,
+  "debug_mode": true,
+  "max_algorithm_tracks": 300,
+  "max_history_items": 20,
+  "ransac_threshold": 0.05,
+  "cpm_iterations": 20
+}

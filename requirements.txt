@@ -1,0 +1,9 @@
+PyQt5
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+python-docx
+Pillow
+pymongo
