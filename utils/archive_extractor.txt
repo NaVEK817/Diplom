@@ -1,0 +1,170 @@
+import zipfile
+import os
+from pathlib import Path
+from typing import List, Optional
+import shutil
+
+class ArchiveExtractor:
+    """
+    Класс для распаковки ZIP-архивов и управления файлами
+    """
+    
+    def __init__(self, archive_path: str, extract_dir: str, cleanup_on_exit: bool = False):
+        """
+        Инициализация экстрактора
+        
+        Args:
+            archive_path: путь к ZIP-архиву
+            extract_dir: директория для распаковки файлов
+            cleanup_on_exit: удалять ли распакованные файлы при завершении
+        """
+        self.archive_path = Path(archive_path)
+        self.extract_dir = Path(extract_dir)
+        self.cleanup_on_exit = cleanup_on_exit
+        self.extracted_files = []
+        
+        # Создаем директорию для распаковки
+        self.extract_dir.mkdir(parents=True, exist_ok=True)
+    
+    def check_archive_exists(self) -> bool:
+        """Проверяет существование архива"""
+        return self.archive_path.exists() and self.archive_path.is_file()
+    
+    def get_archive_info(self) -> dict:
+        """Возвращает информацию об архиве"""
+        if not self.check_archive_exists():
+            return {}
+        
+        with zipfile.ZipFile(self.archive_path, 'r') as zip_ref:
+            files = zip_ref.namelist()
+            total_size = sum(info.file_size for info in zip_ref.infolist())
+            
+        return {
+            'archive_name': self.archive_path.name,
+            'archive_size_mb': self.archive_path.stat().st_size / (1024 * 1024),
+            'total_files': len(files),
+            'total_size_mb': total_size / (1024 * 1024),
+            'files': files
+        }
+    
+    def list_lt6_files(self) -> List[str]:
+        """Возвращает список файлов .lt6 в архиве"""
+        if not self.check_archive_exists():
+            raise FileNotFoundError(f"Архив не найден: {self.archive_path}")
+        
+        with zipfile.ZipFile(self.archive_path, 'r') as zip_ref:
+            return sorted([f for f in zip_ref.namelist() if f.endswith('.lt6')])
+    
+    def extract_file(self, filename: str, force: bool = False) -> Optional[Path]:
+        """
+        Извлекает файл из архива
+        
+        Args:
+            filename: имя файла в архиве
+            force: принудительно извлечь заново
+            
+        Returns:
+            Path к извлеченному файлу или None при ошибке
+        """
+        if not self.check_archive_exists():
+            raise FileNotFoundError(f"Архив не найден: {self.archive_path}")
+        
+        target_path = self.extract_dir / filename
+        
+        # Если файл уже существует и не требуется принудительное извлечение
+        if not force and target_path.exists() and target_path.stat().st_size > 0:
+            return target_path
+        
+        try:
+            with zipfile.ZipFile(self.archive_path, 'r') as zip_ref:
+                zip_ref.extract(filename, self.extract_dir)
+                self.extracted_files.append(target_path)
+                return target_path
+        except Exception as e:
+            print(f"Ошибка при извлечении {filename}: {e}")
+            return None
+    
+    def extract_files(self, filenames: List[str], force: bool = False) -> List[Path]:
+        """
+        Извлекает несколько файлов из архива
+        
+        Args:
+            filenames: список имен файлов
+            force: принудительно извлечь заново
+            
+        Returns:
+            список Path извлеченных файлов
+        """
+        extracted = []
+        for filename in filenames:
+            file_path = self.extract_file(filename, force)
+            if file_path:
+                extracted.append(file_path)
+        return extracted
+    
+    def extract_all_lt6(self, force: bool = False) -> List[Path]:
+        """
+        Извлекает все .lt6 файлы из архива
+        
+        Args:
+            force: принудительно извлечь заново
+            
+        Returns:
+            список Path извлеченных файлов
+        """
+        lt6_files = self.list_lt6_files()
+        return self.extract_files(lt6_files, force)
+    
+    def extract_range(self, start_num: int, end_num: int, 
+                     pattern: str = "2006010{i}.lt6") -> List[Path]:
+        """
+        Извлекает диапазон файлов по шаблону
+        
+        Args:
+            start_num: начальное число (включительно)
+            end_num: конечное число (включительно)
+            pattern: шаблон имени файла с {i} для подстановки
+            
+        Returns:
+            список Path извлеченных файлов
+        """
+        filenames = [pattern.format(i=i) for i in range(start_num, end_num + 1)]
+        return self.extract_files(filenames)
+    
+    def read_file_content(self, file_path: Path, encoding: str = 'utf-8') -> Optional[List[str]]:
+        """
+        Читает содержимое файла построчно
+        
+        Args:
+            file_path: путь к файлу
+            encoding: кодировка файла
+            
+        Returns:
+            список строк или None при ошибке
+        """
+        try:
+            with open(file_path, 'r', encoding=encoding) as f:
+                return [line.rstrip('\n\r') for line in f.readlines()]
+        except Exception as e:
+            print(f"Ошибка при чтении файла {file_path}: {e}")
+            return None
+    
+    def cleanup(self):
+        """Удаляет все извлеченные файлы"""
+        if not self.cleanup_on_exit:
+            return
+        
+        for file_path in self.extracted_files:
+            try:
+                if file_path.exists():
+                    file_path.unlink()
+            except Exception as e:
+                print(f"Ошибка при удалении {file_path}: {e}")
+        
+        self.extracted_files.clear()
+    
+    def __enter__(self):
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.cleanup()
