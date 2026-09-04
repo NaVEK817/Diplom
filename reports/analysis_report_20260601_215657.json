@@ -1,0 +1,2285 @@
+{
+  "timestamp": "2026-06-01T21:56:58.586835",
+  "report_type": "analysis_output_documents",
+  "results": {
+    "statistics": {
+      "total_tracks": 2127,
+      "total_clusters": 203,
+      "total_sectors": 203,
+      "max_workload_index": 20886.543372103588,
+      "total_conflict_events": 6265,
+      "runway_optimization_stats": {
+        "runways_count": 20,
+        "arrivals_count": 2127,
+        "spacing_violations": 15,
+        "overloaded_runways": [],
+        "total_delay_seconds": 83213.2544137898
+      },
+      "pbn_issues_count": 754,
+      "procedure_export_rows": 471,
+      "avg_procedure_quality": 5.051976633534753,
+      "what_if_delta": {
+        "max_workload_index": -2088.654337210359,
+        "total_conflicts": -946,
+        "pbn_issues": 0,
+        "avg_quality_score": 0.0,
+        "sector_conflicts": 0
+      },
+      "total_centroids": 203,
+      "anomaly_stats": {
+        "total_tracks_analyzed": 1968,
+        "total_anomalies_detected": 22,
+        "anomaly_percentage": 1.1178861788617886,
+        "high_risk_count": 1792,
+        "high_risk_percentage": 91.05691056910568
+      },
+      "rule_risk_stats": {
+        "total_rule_risks": 5235,
+        "tracks_with_rule_risks": 1962,
+        "high_severity_tracks": 1960,
+        "risk_type_counts": {
+          "Невыдерживание профиля": 2860,
+          "Опасное маневрирование": 334,
+          "Превышение скорости на промежуточном участке": 1165,
+          "Нестабилизированный заход": 787,
+          "Подозрение на технический сбой": 89
+        }
+      },
+      "execution_time": 162.4483244419098,
+      "algorithm": "mlesac",
+      "use_cpm": true,
+      "modeling_method": "CPM с косинусной метрикой"
+    },
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "tracks_count": 330,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 910,
+        "workload_index": "6138.4",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 1,
+        "tracks_count": 376,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 948,
+        "workload_index": "20886.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 2,
+        "tracks_count": 530,
+        "runway": "LAX",
+        "anomalies": 0,
+        "rule_risks": 1456,
+        "workload_index": "6459.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 3,
+        "tracks_count": 327,
+        "runway": "SEA",
+        "anomalies": 0,
+        "rule_risks": 995,
+        "workload_index": "2720.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 4,
+        "tracks_count": 118,
+        "runway": "LAX",
+        "anomalies": 0,
+        "rule_risks": 284,
+        "workload_index": "2624.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 5,
+        "tracks_count": 2,
+        "runway": "MSP",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "11.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 6,
+        "tracks_count": 4,
+        "runway": "SJC",
+        "anomalies": 0,
+        "rule_risks": 12,
+        "workload_index": "19.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 7,
+        "tracks_count": 25,
+        "runway": "09L",
+        "anomalies": 0,
+        "rule_risks": 52,
+        "workload_index": "134.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 8,
+        "tracks_count": 2,
+        "runway": "30L",
+        "anomalies": 1,
+        "rule_risks": 2,
+        "workload_index": "10.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 9,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 10,
+        "tracks_count": 24,
+        "runway": "SEA",
+        "anomalies": 0,
+        "rule_risks": 67,
+        "workload_index": "345.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 11,
+        "tracks_count": 3,
+        "runway": "10R",
+        "anomalies": 1,
+        "rule_risks": 8,
+        "workload_index": "20.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 12,
+        "tracks_count": 38,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 100,
+        "workload_index": "184.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 13,
+        "tracks_count": 1,
+        "runway": "30L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 14,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 15,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 16,
+        "tracks_count": 1,
+        "runway": "13",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 17,
+        "tracks_count": 1,
+        "runway": "30L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 18,
+        "tracks_count": 1,
+        "runway": "30L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 19,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 20,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 21,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 22,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 23,
+        "tracks_count": 2,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 4,
+        "workload_index": "8.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 24,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 25,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 26,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 27,
+        "tracks_count": 1,
+        "runway": "12",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 28,
+        "tracks_count": 2,
+        "runway": "CDG",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "18.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 29,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 30,
+        "tracks_count": 1,
+        "runway": "13",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 31,
+        "tracks_count": 1,
+        "runway": "10L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 32,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 33,
+        "tracks_count": 4,
+        "runway": "28L",
+        "anomalies": 0,
+        "rule_risks": 5,
+        "workload_index": "11.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 34,
+        "tracks_count": 1,
+        "runway": "12",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 35,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 36,
+        "tracks_count": 1,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 37,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 38,
+        "tracks_count": 2,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 4,
+        "workload_index": "7.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 39,
+        "tracks_count": 1,
+        "runway": "RNO",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "8.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 40,
+        "tracks_count": 10,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 27,
+        "workload_index": "31.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 41,
+        "tracks_count": 2,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 4,
+        "workload_index": "6.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 42,
+        "tracks_count": 39,
+        "runway": "PHNL",
+        "anomalies": 2,
+        "rule_risks": 84,
+        "workload_index": "160.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 43,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 44,
+        "tracks_count": 1,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 45,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 46,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 47,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 48,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 49,
+        "tracks_count": 2,
+        "runway": "MOD",
+        "anomalies": 1,
+        "rule_risks": 4,
+        "workload_index": "9.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 50,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 51,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 52,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 53,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 54,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 55,
+        "tracks_count": 1,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 56,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 57,
+        "tracks_count": 2,
+        "runway": "09L",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "15.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 58,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 59,
+        "tracks_count": 1,
+        "runway": "12L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 60,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 61,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 62,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 63,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 64,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 65,
+        "tracks_count": 1,
+        "runway": "MIA",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "11.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 66,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 67,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 68,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 69,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 70,
+        "tracks_count": 6,
+        "runway": "MRY",
+        "anomalies": 0,
+        "rule_risks": 16,
+        "workload_index": "26.4",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 71,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 72,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 73,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 74,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 75,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 76,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 77,
+        "tracks_count": 2,
+        "runway": "OAK",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "10.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 78,
+        "tracks_count": 8,
+        "runway": "12L",
+        "anomalies": 0,
+        "rule_risks": 12,
+        "workload_index": "14.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 79,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 80,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 81,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 82,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 83,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 84,
+        "tracks_count": 1,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 85,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 86,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 87,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 88,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 89,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 90,
+        "tracks_count": 17,
+        "runway": "SMF",
+        "anomalies": 0,
+        "rule_risks": 33,
+        "workload_index": "47.1",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 91,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 92,
+        "tracks_count": 5,
+        "runway": "09L",
+        "anomalies": 1,
+        "rule_risks": 8,
+        "workload_index": "25.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 93,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 94,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 95,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 96,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 97,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 98,
+        "tracks_count": 19,
+        "runway": "SBA",
+        "anomalies": 1,
+        "rule_risks": 33,
+        "workload_index": "95.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 99,
+        "tracks_count": 6,
+        "runway": "10L",
+        "anomalies": 0,
+        "rule_risks": 11,
+        "workload_index": "33.0",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 100,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 101,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 102,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 103,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 104,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 105,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 106,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 107,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 108,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 109,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 110,
+        "tracks_count": 3,
+        "runway": "19L",
+        "anomalies": 1,
+        "rule_risks": 8,
+        "workload_index": "18.1",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 111,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 112,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 113,
+        "tracks_count": 1,
+        "runway": "30L",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 114,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "7.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 115,
+        "tracks_count": 4,
+        "runway": "PHNL",
+        "anomalies": 0,
+        "rule_risks": 5,
+        "workload_index": "13.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 116,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 117,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 118,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "8.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 119,
+        "tracks_count": 1,
+        "runway": "RNO",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "9.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 120,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 121,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 122,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 123,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 124,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 125,
+        "tracks_count": 4,
+        "runway": "IAD",
+        "anomalies": 0,
+        "rule_risks": 11,
+        "workload_index": "23.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 126,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 127,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 128,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 129,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 130,
+        "tracks_count": 1,
+        "runway": "RNO",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "8.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 131,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 132,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 133,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 134,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 135,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 136,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 137,
+        "tracks_count": 1,
+        "runway": "ORD",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "9.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 138,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 139,
+        "tracks_count": 1,
+        "runway": "10R",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "7.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 140,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 141,
+        "tracks_count": 4,
+        "runway": "SMF",
+        "anomalies": 0,
+        "rule_risks": 8,
+        "workload_index": "23.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 142,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 143,
+        "tracks_count": 1,
+        "runway": "PSP",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "8.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 144,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 145,
+        "tracks_count": 3,
+        "runway": "11",
+        "anomalies": 1,
+        "rule_risks": 9,
+        "workload_index": "15.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 146,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 147,
+        "tracks_count": 1,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 148,
+        "tracks_count": 1,
+        "runway": "MDW",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 149,
+        "tracks_count": 4,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 11,
+        "workload_index": "19.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 150,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 151,
+        "tracks_count": 8,
+        "runway": "LAX",
+        "anomalies": 0,
+        "rule_risks": 17,
+        "workload_index": "90.0",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 152,
+        "tracks_count": 2,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 4,
+        "workload_index": "8.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 153,
+        "tracks_count": 5,
+        "runway": "09R",
+        "anomalies": 1,
+        "rule_risks": 13,
+        "workload_index": "26.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 154,
+        "tracks_count": 4,
+        "runway": "12L",
+        "anomalies": 0,
+        "rule_risks": 6,
+        "workload_index": "17.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 155,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 156,
+        "tracks_count": 6,
+        "runway": "12L",
+        "anomalies": 0,
+        "rule_risks": 18,
+        "workload_index": "25.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 157,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 158,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 159,
+        "tracks_count": 3,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 3,
+        "workload_index": "8.4",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 160,
+        "tracks_count": 3,
+        "runway": "н/д",
+        "anomalies": 1,
+        "rule_risks": 3,
+        "workload_index": "7.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 161,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 162,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 163,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 164,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 165,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 166,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 167,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 168,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 169,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 170,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "7.4",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 171,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 172,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 173,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 174,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 175,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 176,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 177,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 178,
+        "tracks_count": 2,
+        "runway": "PHX",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "13.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 179,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 180,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 181,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 182,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.0",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 183,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 184,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.3",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 185,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 186,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 187,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 188,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.6",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 189,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 190,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 191,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 192,
+        "tracks_count": 4,
+        "runway": "SMF",
+        "anomalies": 0,
+        "rule_risks": 6,
+        "workload_index": "16.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 193,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.7",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 194,
+        "tracks_count": 2,
+        "runway": "YYZ",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "14.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 195,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 196,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "6.2",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 197,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "4.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 198,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "2.9",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 199,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.5",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 200,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.8",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 201,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "3.1",
+        "risk_level": "н/д"
+      },
+      {
+        "cluster_id": 202,
+        "tracks_count": 1,
+        "runway": "н/д",
+        "anomalies": 0,
+        "rule_risks": 0,
+        "workload_index": "5.8",
+        "risk_level": "н/д"
+      }
+    ],
+    "top_anomalies": [
+      {
+        "cluster_id": 0,
+        "track_id": "12606554_0",
+        "anomaly_score": 0.9999999998630138,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607475_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606273_0",
+        "anomaly_score": 0.123287671215988,
+        "risk_level": "low",
+        "rule_risk_count": 1,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606956_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606366_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607208_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12608221_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607055_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12608320_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607068_0",
+        "anomaly_score": 0.34246575337774443,
+        "risk_level": "low",
+        "rule_risk_count": 1,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606845_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12607224_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606773_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606373_0",
+        "anomaly_score": 0.9595959594990308,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12608103_0",
+        "anomaly_score": 0.3333333332996633,
+        "risk_level": "low",
+        "rule_risk_count": 2,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606496_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606999_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606867_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12607912_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12608027_0",
+        "anomaly_score": 0.35353535349964293,
+        "risk_level": "low",
+        "rule_risk_count": 2,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607849_0",
+        "anomaly_score": 0.9999999998611112,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12606680_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607294_0",
+        "anomaly_score": 1.0833333331828705,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607610_0",
+        "anomaly_score": 0.45833333326967596,
+        "risk_level": "medium",
+        "rule_risk_count": 1,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607503_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12606533_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607413_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607561_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607318_0",
+        "anomaly_score": 0.5416666665914353,
+        "risk_level": "medium",
+        "rule_risk_count": 2,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607305_0",
+        "anomaly_score": 1.3194444442611883,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606550_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608267_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607278_0",
+        "anomaly_score": 0.9797979796990104,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607478_0",
+        "anomaly_score": 0.8282828281991634,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606412_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607722_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608084_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 1,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608112_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608174_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606632_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606630_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606683_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606717_0",
+        "anomaly_score": 0.14141414139985717,
+        "risk_level": "low",
+        "rule_risk_count": 1,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606614_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606872_0",
+        "anomaly_score": 0.4343434342995613,
+        "risk_level": "medium",
+        "rule_risk_count": 2,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12607362_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606211_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606903_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606387_0",
+        "anomaly_score": 0.5252525251994695,
+        "risk_level": "medium",
+        "rule_risk_count": 1,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12608258_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      }
+    ]
+  }
+}

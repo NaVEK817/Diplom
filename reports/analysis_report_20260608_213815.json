@@ -1,0 +1,755 @@
+{
+  "timestamp": "2026-06-08T21:38:18.475440",
+  "report_type": "analysis_output_documents",
+  "results": {
+    "statistics": {
+      "total_tracks": 2127,
+      "total_clusters": 229,
+      "total_sectors": 229,
+      "max_workload_index": 16362.621487547061,
+      "total_conflict_events": 5374,
+      "runway_optimization_stats": {
+        "runways_count": 20,
+        "arrivals_count": 2127,
+        "spacing_violations": 15,
+        "overloaded_runways": [],
+        "total_delay_seconds": 83213.2544137898
+      },
+      "pbn_issues_count": 703,
+      "procedure_export_rows": 478,
+      "avg_procedure_quality": 4.37412472586657,
+      "what_if_delta": {
+        "max_workload_index": -1636.2621487547058,
+        "total_conflicts": -815,
+        "pbn_issues": 0,
+        "avg_quality_score": 0.0,
+        "sector_conflicts": 0
+      },
+      "total_centroids": 229,
+      "anomaly_stats": {
+        "total_tracks_analyzed": 1943,
+        "total_anomalies_detected": 21,
+        "anomaly_percentage": 1.0808028821410192,
+        "high_risk_count": 1763,
+        "high_risk_percentage": 90.73597529593413
+      },
+      "rule_risk_stats": {
+        "total_rule_risks": 5187,
+        "tracks_with_rule_risks": 1938,
+        "high_severity_tracks": 1936,
+        "risk_type_counts": {
+          "Невыдерживание профиля": 2832,
+          "Опасное маневрирование": 331,
+          "Нестабилизированный заход": 776,
+          "Превышение скорости на промежуточном участке": 1159,
+          "Подозрение на технический сбой": 89
+        }
+      },
+      "execution_time": 301.44548416137695,
+      "algorithm": "mlesac",
+      "use_cpm": true,
+      "modeling_method": "CPM с косинусной метрикой"
+    },
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "tracks_count": 502,
+        "runway": "LAX",
+        "anomalies": 0,
+        "rule_risks": 1375,
+        "workload_index": "5618.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 1,
+        "tracks_count": 343,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 860,
+        "workload_index": "16362.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 2,
+        "tracks_count": 52,
+        "runway": "PDX",
+        "anomalies": 0,
+        "rule_risks": 132,
+        "workload_index": "697.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 3,
+        "tracks_count": 285,
+        "runway": "11",
+        "anomalies": 0,
+        "rule_risks": 768,
+        "workload_index": "5711.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 4,
+        "tracks_count": 294,
+        "runway": "SEA",
+        "anomalies": 0,
+        "rule_risks": 877,
+        "workload_index": "2392.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 5,
+        "tracks_count": 76,
+        "runway": "BOS",
+        "anomalies": 0,
+        "rule_risks": 231,
+        "workload_index": "457.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 6,
+        "tracks_count": 49,
+        "runway": "SBA",
+        "anomalies": 0,
+        "rule_risks": 110,
+        "workload_index": "256.0",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 7,
+        "tracks_count": 8,
+        "runway": "SMF",
+        "anomalies": 0,
+        "rule_risks": 18,
+        "workload_index": "40.0",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 8,
+        "tracks_count": 138,
+        "runway": "LAX",
+        "anomalies": 0,
+        "rule_risks": 366,
+        "workload_index": "3022.4",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 9,
+        "tracks_count": 12,
+        "runway": "10L",
+        "anomalies": 0,
+        "rule_risks": 26,
+        "workload_index": "71.4",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 10,
+        "tracks_count": 10,
+        "runway": "19R",
+        "anomalies": 0,
+        "rule_risks": 21,
+        "workload_index": "62.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 12,
+        "tracks_count": 2,
+        "runway": "RDD",
+        "anomalies": 1,
+        "rule_risks": 7,
+        "workload_index": "21.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 29,
+        "tracks_count": 2,
+        "runway": "12",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "6.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 34,
+        "tracks_count": 6,
+        "runway": "RJAA",
+        "anomalies": 0,
+        "rule_risks": 16,
+        "workload_index": "94.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 57,
+        "tracks_count": 3,
+        "runway": "STL",
+        "anomalies": 1,
+        "rule_risks": 7,
+        "workload_index": "28.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 73,
+        "tracks_count": 9,
+        "runway": "MOD",
+        "anomalies": 1,
+        "rule_risks": 18,
+        "workload_index": "50.5",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 74,
+        "tracks_count": 12,
+        "runway": "13",
+        "anomalies": 0,
+        "rule_risks": 23,
+        "workload_index": "38.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 76,
+        "tracks_count": 4,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 6,
+        "workload_index": "14.1",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 80,
+        "tracks_count": 10,
+        "runway": "12R",
+        "anomalies": 0,
+        "rule_risks": 30,
+        "workload_index": "39.8",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 81,
+        "tracks_count": 17,
+        "runway": "JFK",
+        "anomalies": 1,
+        "rule_risks": 46,
+        "workload_index": "248.0",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 82,
+        "tracks_count": 19,
+        "runway": "11",
+        "anomalies": 1,
+        "rule_risks": 44,
+        "workload_index": "91.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 83,
+        "tracks_count": 2,
+        "runway": "ORD",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "13.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 86,
+        "tracks_count": 6,
+        "runway": "12L",
+        "anomalies": 0,
+        "rule_risks": 6,
+        "workload_index": "12.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 106,
+        "tracks_count": 4,
+        "runway": "MRY",
+        "anomalies": 0,
+        "rule_risks": 10,
+        "workload_index": "24.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 107,
+        "tracks_count": 5,
+        "runway": "MIA",
+        "anomalies": 1,
+        "rule_risks": 13,
+        "workload_index": "48.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 111,
+        "tracks_count": 6,
+        "runway": "PHNL",
+        "anomalies": 0,
+        "rule_risks": 11,
+        "workload_index": "19.3",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 120,
+        "tracks_count": 2,
+        "runway": "19L",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "12.2",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 143,
+        "tracks_count": 4,
+        "runway": "10L",
+        "anomalies": 0,
+        "rule_risks": 8,
+        "workload_index": "35.9",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 144,
+        "tracks_count": 2,
+        "runway": "12R",
+        "anomalies": 1,
+        "rule_risks": 5,
+        "workload_index": "10.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 146,
+        "tracks_count": 3,
+        "runway": "11",
+        "anomalies": 1,
+        "rule_risks": 10,
+        "workload_index": "15.1",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 154,
+        "tracks_count": 3,
+        "runway": "MRY",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "19.6",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 166,
+        "tracks_count": 3,
+        "runway": "11",
+        "anomalies": 1,
+        "rule_risks": 6,
+        "workload_index": "20.7",
+        "risk_level": "high"
+      },
+      {
+        "cluster_id": 177,
+        "tracks_count": 4,
+        "runway": "MOD",
+        "anomalies": 0,
+        "rule_risks": 10,
+        "workload_index": "25.4",
+        "risk_level": "high"
+      }
+    ],
+    "top_anomalies": [
+      {
+        "cluster_id": 0,
+        "track_id": "12607849_0",
+        "anomaly_score": 0.9999999998611112,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606680_0",
+        "anomaly_score": 1.2638888887133488,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607294_0",
+        "anomaly_score": 1.0833333331828705,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607610_0",
+        "anomaly_score": 0.45833333326967596,
+        "risk_level": "medium",
+        "rule_risk_count": 1,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607503_0",
+        "anomaly_score": 1.2638888887133488,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606533_0",
+        "anomaly_score": 1.2638888887133488,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607413_0",
+        "anomaly_score": 1.2638888887133488,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12606710_0",
+        "anomaly_score": 0.7222222221219137,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607561_0",
+        "anomaly_score": 1.2638888887133488,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 0,
+        "track_id": "12607318_0",
+        "anomaly_score": 0.5416666665914353,
+        "risk_level": "medium",
+        "rule_risk_count": 2,
+        "risk_description": "Умеренное отклонение от глиссады"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606845_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606273_0",
+        "anomaly_score": 0.09090909089990817,
+        "risk_level": "low",
+        "rule_risk_count": 1,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12607224_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606773_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606373_0",
+        "anomaly_score": 0.9595959594990308,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12608103_0",
+        "anomaly_score": 0.3333333332996633,
+        "risk_level": "low",
+        "rule_risk_count": 2,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606496_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606999_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12606867_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 1,
+        "track_id": "12607912_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12608301_0",
+        "anomaly_score": 0.9999999998795182,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12606250_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12606623_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607215_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607384_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607430_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607579_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607392_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12607820_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 2,
+        "track_id": "12608045_0",
+        "anomaly_score": 1.192771084193642,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606554_0",
+        "anomaly_score": 0.9999999998630138,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606209_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607475_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606956_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12606366_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607208_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608221_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607055_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12608320_0",
+        "anomaly_score": 1.356164383375868,
+        "risk_level": "high",
+        "rule_risk_count": 4,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 3,
+        "track_id": "12607068_0",
+        "anomaly_score": 0.34246575337774443,
+        "risk_level": "low",
+        "rule_risk_count": 1,
+        "risk_description": "Отклонение в пределах нормы"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12607695_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "КРИТИЧЕСКОЕ ОТКЛОНЕНИЕ - потенциально опасная траектория"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606550_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12608267_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 2,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12607278_0",
+        "anomaly_score": 0.9797979796990104,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12607478_0",
+        "anomaly_score": 0.8282828281991634,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12607722_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12608084_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 1,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12608112_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12608174_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      },
+      {
+        "cluster_id": 4,
+        "track_id": "12606632_0",
+        "anomaly_score": 0.9999999998989899,
+        "risk_level": "high",
+        "rule_risk_count": 3,
+        "risk_description": "Значительное отклонение от эталонной траектории"
+      }
+    ]
+  }
+}
